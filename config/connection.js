@@ -17,4 +17,15 @@ connection.connect(function(err) {
   console.log("connected as id " + connection.threadId);
 });
 
+if (process.env.JAWSDB_ULR) {
+  connection = mysql.createConnection(process.env.JAWSDB_ULR);
+} else {
+  connection = mysql.createConnection({
+    host: 'localhost',
+    user: 'gdxx01h1zwx3fncs',
+    password: 'l5atra5y88qionq1',
+    database: 'k28kcboa5y2o7yf2'
+  });
+};
+
 module.exports = connection;
