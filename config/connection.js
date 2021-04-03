@@ -22,9 +22,9 @@ if (process.env.JAWSDB_ULR) {
 } else {
   connection = mysql.createConnection({
     host: 'localhost',
-    user: 'gdxx01h1zwx3fncs',
-    password: 'l5atra5y88qionq1',
-    database: 'k28kcboa5y2o7yf2'
+    user: 'root',
+    password: 'g7t59b4p5hcfjtht',
+    database: 'xhlg4bp7okjk8iy5'
   });
 };
 
