@@ -21,10 +21,10 @@ if (process.env.JAWSDB_ULR) {
   connection = mysql.createConnection(process.env.JAWSDB_ULR);
 } else {
   connection = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: 'g7t59b4p5hcfjtht',
-    database: 'xhlg4bp7okjk8iy5'
+    host: 'z5zm8hebixwywy9d.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',
+    user: 'sd6s432g20y2sh9u',
+    password: 'bmm3ix4ikmfqlw6s',
+    database: 'tgraeimi3q0hcvpe'
   });
 };
 
