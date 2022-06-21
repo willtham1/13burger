@@ -1,22 +1,23 @@
 {
-  "name": "13burger",
+  "name": "Burger",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/willtham1/13burger.git"
+    "url": "git+https://github.com/willtham1/Burger.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/willtham1/13burger/issues"
+    "url": "https://github.com/willtham1/Burger/issues"
   },
-  "homepage": "https://github.com/willtham1/13burger#readme",
+  "homepage": "https://github.com/willtham1/Burger#readme",
   "dependencies": {
     "express": "^4.17.1",
     "express-handlebars": "^5.2.1",
